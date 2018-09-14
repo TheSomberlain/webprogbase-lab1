@@ -1,0 +1,278 @@
+
+
+body {
+    background: #212121;
+    background-image: url(../images/5396071.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position:  center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.nav{
+    
+    float: right;
+   list-style: none;
+  
+   
+}
+
+
+.nav li {
+   display: inline-block;
+    margin-top: 0px;
+   padding: 5px 20px;
+    color: rgba(255,255,255,0.5);
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    
+}
+
+.nav a {
+    padding: 5px 20px;
+    color: rgba(255,255,255,0.5);
+    text-decoration: none;
+    font-family: ""Roboto", sans-serif";
+   
+    font-size: 15px;
+}
+.nav li a:hover{
+    background-color: red; opacity: 0.5;
+    display: block;
+    
+}
+.logo img{
+    margin-top: 3px;
+    margin-left: 10px;
+    width: 90px;
+    height: auto;
+    float:left;
+    
+    
+}
+.logo p{
+    float: left;
+      display: inline;
+    margin-top: 15px;
+    padding-left: 10px;
+    color: rgba(255,255,255,0.5);
+    text-decoration: none;
+    font-family: fantasy;
+    font-size: 25px;
+   
+
+}
+
+.main {
+    margin-top:130px;
+    width: 1250px;
+    margin-left: 10px;
+    height: 400px;
+    position: absolute;
+    background-color: rgb(28, 27, 27);
+    opacity: 0.9;
+    border: 2px rgba(255,255,255,0.5);
+    border-radius: 20px;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom:0;
+    left:0
+}
+ h3 {
+    text-align: center;
+    color: rgba(255,255,255,0.5);
+    font-size: 60px;
+}
+p {
+    text-align: center;
+    color: rgba(255,255,255,0.5);
+    margin-left: 10px;
+    margin-right: 10px;  
+    font-size: 30px;
+    -webkit-text-stroke-width: -5px;
+   -webkit-text-stroke-color: black;
+}
+.tab table {
+    color: rgba(255,255,255,0.5);
+    width: 1200px;
+    text-align: left;
+    font-size: 30px;
+    border: solid gray;
+    
+   
+}
+.tab td, .tab th {
+    border: 1px solid gray;
+    padding: 8px;
+}
+.tab th {
+    width: auto;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: red;
+    opacity: 0.6;
+}
+.tab {
+    left:25px;
+    margin: auto;
+    position: absolute;
+   
+}
+.tab a {
+    text-decoration: none;
+    color: rgba(255,255,255,0.5);
+}
+.ava {
+    
+    width: 250px;
+    height: 250px;
+   position: absolute;
+    margin-top:0;
+    margin-left: 0px;
+    
+    
+}
+.ava img {
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 0px;
+    border: 5px solid grey;
+    border-radius: 20px;
+}
+.name {
+    width: 900px;
+    height: 126px;
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 270px;
+    background-color: grey;
+    border: 5px solid grey;
+    border-radius: 20px;
+    opacity: 0.8;
+    
+}
+.name h3 {
+    margin-top: 10px;
+    color: solid white;
+    font-size: 30px;
+    text-shadow: 2px 2px #212121;
+}
+.name p {
+    margin-top: 20px;
+    color: solid white;
+    font-size: 20px;
+    text-shadow: 2px 2px #212121;
+}
+.bio {
+    width: 900px;
+    height: auto;
+    margin-top: 140px;
+    margin-left: 270px;
+    position: absolute;
+    background-color: rgb(28, 27, 27);
+    border:none;
+    border-radius: 20px;
+    opacity: 0.9;
+}
+.bio h3 {
+    margin-top: 10px;
+    color: solid white;
+    font-size: 30px;
+    text-shadow: 2px 2px #212121;
+}
+.bio p {
+    margin-top: 20px;
+    color: solid white;
+    font-size: 20px;
+    text-shadow: 2px 2px #212121;
+}
+.center {
+    
+    width: 1180px;
+    height: 570px;
+     position: absolute;
+    margin: auto;
+    top: 90px;
+    right: 0;
+    bottom:0;
+    left:0;
+    
+
+}
+.tablist {
+    width: 1000px;
+    height:400px;
+     position: absolute;
+    margin: auto;
+    top: 0px;
+    right: 0;
+    bottom:0;
+    left:0;
+    background-color: rgb(28, 27, 27);
+    border:none;
+    border-radius: 20px;
+    opacity: 0.9;
+}
+.tablist li {
+    text-align: center;
+    font-size: 30px;
+    
+}
+.tablist ul{
+    list-style: none;
+}
+.tablist a {
+    text-decoration: none;
+    color: rgba(255,255,255,0.5);
+}
+.tabitself {
+    width: auto;
+    height:auto;
+     position: relative;
+    margin: auto;
+    top: 0px;
+    right: 0;
+    bottom:0;
+    left:0;
+    background-color:#212121;
+    opacity: 0.8;
+    border:none;
+    border-radius: 20px;
+    
+    
+}
+.tabitself pre {
+    color: white;
+    text-align: center;
+}
+.centertab {
+    width: 900px;
+    height: auto;
+     position: absolute;
+    margin: auto;
+    top: 100px;
+    right: 0;
+    bottom:0;
+    left:0;
+    
+}
+
+.about {
+    width: auto;
+    height: auto;
+    text-align: center;
+    background-color: #212121; 
+    border: none;
+    border-radius: 20px;
+    opacity: 0.8;
+}
+.about p {
+    font-size: 20px;
+    color: white;
+}
